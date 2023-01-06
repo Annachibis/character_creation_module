@@ -5,7 +5,7 @@ def attack(char_name, char_class):
     if char_class == 'warrior':
         return (
             f'{char_name} нанёс урон противнику равный '
-           
+            f'{5 + randint(5, 10)}')
     if char_class == 'mage':
         return (
             f'{char_name} нанёс урон противнику равный '
